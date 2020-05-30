@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="assets/images/favicon.png"
+		/>
+		<link rel="stylesheet" href="assets/styles/app.css" />
+		<script src="assets/scripts/app.js" defer></script>
+		<style>
+			@media (min-width: 768px) {
+				.nav-item .nav-link {
+					color: black;
+				}
+			}
+		</style>
+		<title>Coming Soon</title>
+	</head>
+	<body>
+		<header class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="index.html">
+				<img
+					src="assets/images/logo.png"
+					class="d-inline-block align-center"
+					alt="Vkarma Logo"
+					loading="lazy"
+				/>&nbsp;
+			</a>
+			<button
+				class="custom-toggler navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarLinks"
+				aria-controls="navbarLinks"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarLinks">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="productDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Product
+						</a>
+						<div class="dropdown-menu" aria-labelledby="productDropdown">
+							<a class="dropdown-item" href="CMS.html"
+								>Coaching Management System</a
+							>
+							<a class="dropdown-item" href="cs.html"
+								>Hostel Management System</a
+							>
+							<a class="dropdown-item" href="sms.html"
+								>School Management System</a
+							>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="supportDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Support
+						</a>
+						<div class="dropdown-menu" aria-labelledby="supportDropdown">
+							<a class="dropdown-item" href="cs.html">FAQs</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="contactDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Contact
+						</a>
+						<div
+							class="dropdown-menu dropdown-menu-right"
+							aria-labelledby="contactDropdown"
+						>
+							<a class="dropdown-item" href="AboutUs.html">About Us</a>
+							<a class="dropdown-item" href="contactus.html">Contact Us</a>
+							<a class="dropdown-item" href="partnerpage.html">Get In Touch</a>
+							<a class="dropdown-item" href="Team.html">Team</a>
+						</div>
+					</li>
+					<!-- <li class="nav-item">
+						<img
+							src="assets/images/search-icon.png"
+							alt="Search Bar"
+							srcset=""
+							class="nav-link search-icon"
+							role="button"
+						/>
+					</li> -->
+				</ul>
+			</div>
+		</header>
+		<h1
+			style="
+				margin: 20% auto;
+				color: orange;
+				font-size: 5rem;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				text-align: center;
+			"
+		>
+			Coming Soon!
+		</h1>
+		<section id="footer-section">
+			<div class="styling-image"></div>
+			<div class="home">
+				<!-- <a href="index.html">Home</a> -->
+				<a href="index.html"
+					><img src="assets/images/logo-white.png" alt=""
+				/></a>
+			</div>
+			<div class="footer-content d-flex">
+				<div class="all-links d-flex">
+					<div class="home-products">
+						<div class="products">
+							<h5>Products</h5>
+							<a href="CMS.html">Coaching Management System</a>
+							<a href="cs.html">Hostel Management System</a>
+							<a href="sms.html">School Management System</a>
+						</div>
+					</div>
+					<div class="support-contact d-flex">
+						<div class="support">
+							<h5>Support</h5>
+							<a href="cs.html">FAQ</a>
+						</div>
+						<div class="contact">
+							<h5>Contact</h5>
+							<a href="AboutUs.html">About Us</a>
+							<a href="contactus.html">Contact Us</a>
+							<a href="partnerpage.html">Get In Touch</a>
+							<a href="Team.html">Team</a>
+						</div>
+					</div>
+				</div>
+				<div class="contact-us-form">
+					<h5>Leave a message</h5>
+					<form
+						action="https://formspree.io/vkarmaedutech@gmail.com"
+						method="POST"
+					>
+						<input
+							type="text"
+							class="form-control"
+							name="name"
+							placeholder="Enter Name..."
+							required
+						/>
+						<input
+							type="email"
+							class="form-control"
+							name="email"
+							placeholder="Enter Email..."
+							required
+						/>
+						<textarea
+							type="text"
+							class="form-control"
+							name="content"
+							placeholder="Write to us..."
+							required
+						></textarea>
+						<button type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer-links">
+				<div class="social-media">
+					<h5>Social</h5>
+					<a
+						href="https://www.facebook.com/vwkarma/?ref=aymt_homepage_panel&eid=ARDRyOAj68ma-nKVsoecaL80vfPLB4vcDjRaL4lUNp67D5Sq6AEe5HO2D2ZZQp3MDFN5gp4Iwzm_K1g4"
+						><img src="assets/images/facebook-icon.png" alt="Facebook Icon"
+					/></a>
+					<a href="https://www.linkedin.com/company/14535681"
+						><img src="assets/images/linkedin-icon.png" alt="LinkedIn Icon"
+					/></a>
+					<!-- <a href="#"
+						><img src="assets/images/github.png" alt="Github Icon"
+					/></a> -->
+					<a
+						href="https://www.youtube.com/channel/UC2X6tDkIR40VJ8FZ9tungpg/featured"
+						><img src="assets/images/youtube-icon.png" alt="Youtube Icon"
+					/></a>
+				</div>
+				<div class="privacy-policy">
+					<h5>Company</h5>
+					<a href="indextc.html">Terms Of Use</a>
+					<a href="indexpp.html">Privacy Policy</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Product Of India</p>
+				<p>© 2019 VKarma Edutech Pvt. Ltd. All rights reserved.</p>
+			</div>
+		</section>
+		<!-- JS, Popper.js, and jQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

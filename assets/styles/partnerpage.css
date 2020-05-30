@@ -1,0 +1,127 @@
+.container-fluid {
+	position: center;
+	margin-top: 10px;
+}
+.container11 {
+	margin-left: 12%;
+	width: 80%;
+	margin-top: 10px;
+}
+h1 {
+	text-align: center;
+	margin-top: 6rem;
+}
+#para {
+	text-align: center;
+}
+/* body {
+	background-image: url(https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
+html {
+	height: 100%;
+}
+#para {
+	/* font-size: 20px;*/
+	color: #ff8021;
+}
+h1 {
+	/*font-size: 50px;*/
+	color: #ff8021;
+}
+.label1 {
+	color: #ff8021;
+}
+body {
+	font-size: calc(10px + (26-14) * ((100vw - 300px) / (3200 - 300)));
+	/* line-height: calc(1.3em + (1.5-1.2) * ((100vw - 300px) / (3200 - 300))); */
+}
+.wrapper {
+	width: 95%;
+}
+.form-control {
+	height: 40px;
+	border: 1px solid #ff8021;
+}
+#button1 {
+	background-color: #ff8021;
+	border: 0;
+	/* margin-left: 19px;*/
+}
+.line {
+	color: #ff8021;
+}
+#inputProduct {
+	box-shadow: 3px 1px #e67300;
+}
+#inputProduct:hover {
+	border: 1px solid #e67300;
+}
+option:hover {
+	background-color: white;
+}
+#forCountry {
+	border: 1px solid #ff8021;
+	box-shadow: 3px 1px #e67300;
+}
+#forWebsite {
+	border: 1px solid #ff8021;
+	box-shadow: 3px 1px #e67300;
+}
+#forPhone {
+	border: 1px solid #ff8021;
+	box-shadow: 3px 1px #e67300;
+}
+#inputEmail4 {
+	border: 1px solid #ff8021;
+	box-shadow: 3px 1px #e67300;
+}
+#forDescription {
+	border: 1px solid #ff8021;
+	box-shadow: 3px 1px #e67300;
+}
+#forCountry:hover {
+	border: 1px solid #e67300;
+}
+#forWebsite:hover {
+	border: 1px solid #e67300;
+}
+#forPhone:hover {
+	border: 1px solid #e67300;
+}
+#inputEmail4:hover {
+	border: 1px solid #e67300;
+}
+#forDescription:hover {
+	border: 1px solid #e67300;
+}
+#instituteName {
+	border: 1px solid #ff8021;
+	box-shadow: 3px 1px #e67300;
+}
+#instituteName:hover {
+	border: 1px solid #e67300;
+}
+.container11 {
+	margin-top: 10px;
+}
+.mandatory {
+	color: red;
+}
+.nav-item .nav-link.search-icon {
+	background-color: #ff8021;
+}
+/* .nav-item .nav-link {
+	color: #ff8021;
+} */
+.dropdown-menu .dropdown-item {
+	color: #ff8021;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav .nav-link {
+		color: #ff8021;
+	}
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html,
+body {
+	font-family: 'Poppins';
+	height: 100%;
+	/* background-color: #9cd3d3; */
+	width: 100%;
+}
+
+.card-img-top,
+.img-responsive,
+.rounded {
+	border-radius: 50% !important;
+}
+
+.jumbotron {
+	padding-top: 100px;
+}
+
+img.imaged.img-responsive {
+	border-radius: 50%;
+}
+
+.hd {
+	text-shadow: 5px 1px orange;
+}
+
+.name {
+	color: brown;
+}
+
+.border-none {
+	border: none !important;
+}
+
+/* #cards {
+    background-color: #dad9d7;
+} */
+
+#cards:hover {
+	box-shadow: 1px 8px 20px darkslategray;
+	-webkit-transition: box-shadow 0.1s ease-in-out;
+}
+
+.card-body:hover {
+	background-color: #ff8021;
+}
+
+.mod {
+	position: fixed;
+	top: 25%;
+}
+
+.foot {
+	background: url(images/footer-background.jpg);
+	background-repeat: no-repeat;
+	background-position: inherit;
+	background-size: cover;
+	color: burlywood !important;
+}
+
+.foot img {
+	border-radius: 70%;
+}
+
+/* #cards:hover {
+    box-shadow: 1px 8px 20px darkslategray;
+    -webkit-transition: box-shadow .4s ease-in-out;
+} */
+
+.line {
+	border-width: 1px;
+	border-color: burlywood;
+}
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*='col-'] {
+	padding: 1rem;
+}
+
+@media (min-width: 768px) {
+	.nav-link,
+	.navbar-brand {
+		padding-right: 1.5rem !important;
+		font-size: large;
+		color: darkslategray !important;
+	}
+}
+
+@media (max-width: 550px) {
+	h1.display-2 {
+		font-size: 3rem;
+	}
+}
